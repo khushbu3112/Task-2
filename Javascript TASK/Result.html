@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function result()
+	{
+		
+		var english=document.getElementById('english').value;
+		var hindi=document.getElementById('hindi').value;
+		var gujarati=document.getElementById('gujarati').value;
+		var total;
+		total=+english + +hindi + +gujarati;
+		document.getElementById('total').innerHTML="Total Marks" + total;
+		
+		
+		var per;
+		per=(total/300)*100;
+		document.getElementById('per').innerHTML=per + " %";
+		
+		if(per>=90)
+		{
+		document.getElementById('grade').innerHTML="Grade : A";
+		}
+		else if(per>=70)
+		{
+		document.getElementById('grade').innerHTML="Grade : B";
+		}
+		else if(per>=50)
+		{
+		document.getElementById('grade').innerHTML="Grade : C";
+		}
+		else if(per>=40)
+		{
+		document.getElementById('grade').innerHTML="Grade : D";
+		}
+		else
+		{
+		document.getElementById('grade').innerHTML="fail";
+		}
+		return false;
+	}
+	
+</script>
+
+
+
+  
+   <h1>Result</h1>
+      <label for="email">English:</label> 
+      <input type="number" class="form-control" id="english" placeholder="Enter English Marks" name="english"> <br> <br>
+   
+     
+      <label for="email">Hindi:</label>
+      <input type="number" class="form-control" id="hindi" placeholder="Enter hindi Marks" name="hindi"> <br> <br>
+   
+	
+      <label for="email">Gujarati:</label>
+      <input type="number" class="form-control" id="gujarati" placeholder="Enter gujarati Marks" name="gujarati"> <br> <br>
+   
+    <button class="btn btn-primary" onclick="result()">Submit</button>
+  
+  
+  
+  <h1 id="total"></h1>
+  <br>
+  <h1 id="per"></h1>
+   <br>
+  <h1 id="grade"></h1>
+</div>
+</body>
+</html>

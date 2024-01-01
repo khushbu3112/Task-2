@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let jsonData=  ` {
+            "companyName":"krishna Info Tech",
+            "address":"surat Varacha",
+            "TotalEmployee":20,
+            "product":[
+                {
+                    "id":1,
+                    "productName":"Apple",
+                    "Qty":100
+                },
+                {
+                    "id":1,
+                    "productName":"pineapple",
+                    "Qty":120
+                },
+                {
+                    "id":1,
+                    "productName":"Mango",
+                    "Qty":10
+                }
+
+            ]
+        }
+        `;
+        // convert json to object 
+        let object=JSON.parse(jsonData)
+        for(let i=0; i < object.products.length ; i++){
+            console.log(object.products[i])
+        }
+        for(const myData of object.products){
+            document.write(`<p>${myData.id}:${myData.productName}
+                ,Total Quantity :${myData.Qty} </p>`)
+        }
+
+
+        // convert object to json 
+        const myJSON=JSON.stringify(object);
+        console.log(object);
+        console.log(myJSON);
+    </script>
+</body>
+</html>

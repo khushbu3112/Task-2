@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+
+Date()  // gmt format date
+
+getFullYear()  Get the year as a four digit number (yyyy)
+getMonth() Get the month as a number (0-11)  +1
+getDate() 	Get the day as a number (1-31)
+
+getHours() Get the hour (0-23)
+getMinutes() 	Get the minute (0-59)
+getSeconds() Get the second (0-59)
+-->
+
+
+<p id="date"></p>
+<p id="time"></p>
+<p id="dategmt"></p>
+<script>
+    var today=new Date();
+    document.getElementById('dategmt').innerHTML=today;
+
+
+    var date=(today.getDate())+'-'+(today.getMonth()+1)+'-'+(today.getFullYear());
+    document.getElementById('date').innerHTML=date;
+
+
+    var time=today.getHours()+':'+today.getMinutes()+':'+today.getSeconds();
+    document.getElementById("time").innerHTML=time;
+</script>
+
+
+<script>
+    //Get a date as a string, using locale conventions:
+const d = new Date();
+let text3 = d.toLocaleDateString();
+document.write(text3 + "</br>");
+
+//Get the time portion of a date as a string, using locale conventions:
+
+let text4 = d.toLocaleTimeString();
+document.write(text4 + "</br>");
+
+//Get a date as string, using locale conventions:
+
+let text5 = d.toLocaleString();
+document.write(text5 + "</br>");
+
+
+//The toDateString() method returns the date (not the time) of a date object as a string.
+
+let text = d.toDateString();
+document.write(text + "</br>");
+
+</script>
+
+
+<!--
+
+Date()
+
+setDate()
+setFullYear()
+setMonth()
+setSeconds()
+
+setHours();
+setMinutes();
+setSeconds();
+
+
+-->
+
+<script>
+    const p = new Date();
+
+document.write(p + "<br>");
+
+d.setDate(15);
+document.write(d + "<br>");
+
+d.setMonth(7);
+document.write(d + "<br>");
+
+d.setFullYear(2025);
+document.write(d + "<br>");
+
+
+d.setHours(23);
+document.write(d + "<br>");
+
+d.setMinutes(23);
+document.write(d + "<br>");
+
+
+d.setSeconds(50);
+document.write(d + "<br>");
+</script>
+</body>
+</html>

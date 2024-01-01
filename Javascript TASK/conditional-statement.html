@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // if statement 
+        var age=18;
+        if (age<=19) {
+            document.write("valid for vote " ,'<br>')
+        }
+
+        // if else statement 
+        var age=18;
+        if (age>=19) {
+            document.write("valid for vote " ,'<br>')
+        } else {
+            document.write("not valid for vote " ,'<br>')
+        }
+
+        // turnery operator
+			var a=10;
+			var b=20;
+			
+			var ans=(a<b) ? 'yes' : 'No';
+			document.write(ans ,'<br>');
+
+            // if elseif else statement 
+            var a=10;
+            var b=20;
+            var c=30;
+            if (a>b) {
+                document.write("a is bigger" ,'<br>')
+            } else if(b>c){
+                document.write("b is bigger" ,'<br>')
+            }else if (c>a) {
+                document.write("c is bigger" ,'<br>')
+            }else{
+                document.write("all statement are false")
+            }
+
+            // nested if 
+            var age=18;
+			
+			if(age>18) 
+			{
+			   if(age==18)
+			   {
+			      document.write("<b> learning</b>");
+			   }
+			   else
+			   {
+					document.write("<b> Not Qualifies for driving </b>");
+			   };
+            }
+			else
+			{
+			   document.write("<b> Qualifies for driving </b>");
+			}
+
+            // switch case 
+            
+        var day="Monday";
+        switch (day) {
+            case 0:
+                document.write("Today is Sunday")
+                break;
+                case 1:
+                document.write("Today is Monday")
+                break;
+                case 2:
+                document.write("Today is Tuesday")
+                break;
+                case 3:
+                document.write("Today is Wednesday")
+                break;
+                case 4:
+                document.write("Today is Thursday")
+                break;
+                case 5:
+                document.write("Today is Friday" ,"<br>")
+                break;
+        
+            default:
+            document.write("Today is Saturday")
+                break;
+        }
+    </script>
+</body>
+</html>

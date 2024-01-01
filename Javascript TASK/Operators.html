@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+   
+Arithmetic Operators  					+ - * / %     10/2=5   10%2=0
+increement & decreement operator    	++ -- 
+Comparison/Relational Operators  		== ===  > < <=  >= != 
+Logical Operators      					&&  ||   !   // use with if(condition)
+Assignment Operators  					= =+ =- =* =/ =%   a=10  a=a+b; a=+b
+Bitwise Operators						&  |  ^ ~ << >> >>>
+Special/Miscellaneous/conditional 	    ? :
+
+typeof Operator   The typeof operator evaluates to "number", "string", or "boolean" 
+if its operand is a number, string, or boolean value and returns true or false based 
+on the evaluation. 
+-->
+
+
+<script>
+// Arithmetic operator 
+
+var x=10;
+var y=20;
+
+var multi=x*y;
+document.write("multiplication of two number= " ,multi ,'<br>');
+
+
+// increment & decrement operator
+var a=20;
+var b=30;
+a++;
+b--;
+document.write("increment value of  A =",a ,'<br>');
+document.write("increment value of  A =",a ,'<br>');
+document.write("decrement operator of B = ",b ,'<br>');
+
+// comparison operator 
+var a="50";
+var b=50;
+if (a==b) {
+    document.write("a is equal to b" ,'<br>');
+} else {
+    document.write("a is not equal to b" ,'<br>')
+}
+
+if (a===b) {
+    document.write("a equal to b with same data type" ,'<br>')
+} else {
+    document.write("a is not equal to b with same not data type" ,'<br>')
+}
+
+
+// logical operator 
+var a=30;
+var b=50;
+var c=20;
+
+if (a<=b && a<=c) {
+    document.write("a less than b & c" ,'<br>')
+} else {
+    document.write("statement false" ,'<br>');
+}
+
+// Assignment operator
+var a=10;
+var b=20;
+document.write(a=a+b ,'<br>');
+
+
+// special / conditional operator 
+var a=20;
+var b=30;
+var sum;
+document.write((a>b)? 'a is grater than b' :  'a is less than b' ,'<br>')
+
+// typeof operator
+
+var a=20;
+if (typeof a=="number") {
+    document.write("a is integer" ,'<br>')
+} else {
+    document.write("a is no integer")
+}
+
+var b="string";
+if (typeof b=="string") {
+    document.write("b is a string" ,'<br>')
+} else {
+    document,write("b is not string")
+}
+</script>
+</body>
+</html>
