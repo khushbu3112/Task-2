@@ -1,0 +1,2527 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.start
+{
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 10px;
+}
+.two
+{
+   margin-left: 70%; 
+   
+}
+.header
+{
+    height: 87vh;
+    width: 100%;
+    background-color: rgb(126, 212, 212);
+}
+.header
+{
+    display: flex;
+    position: relative;
+
+}
+.nav
+{
+    margin-left: 60%;
+    width: 100%;
+
+}
+.nav .head
+{
+    width: 20%;
+}
+.nav ul
+{
+    display: flex;
+    padding-left: 10px;
+}
+.nav ul li 
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+
+}
+.nav ul .home a
+{
+    color: blue;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+   
+}
+
+.content
+{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    margin-left: 7%;
+}
+.content h1
+{
+    color: blue;
+
+}
+.content p
+{
+    width: 40%;
+}
+.content button
+{
+    height: 5vh;
+    width: 20%;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: orange;
+}
+.img
+{
+    position: absolute;
+    top: 20%;
+    margin-left: 50%;
+}
+.img img
+{
+    height: 75vh;
+}
+.block
+{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 90%;
+}
+.repair
+{
+    height: 200px;
+    width: 27%;
+    margin-left: 5%;
+    background-color: beige;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.improve
+{
+    height: 200px;
+    width: 27%;
+    margin-left: 2%;
+    background-color: orange;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.maintain
+{
+    height: 200px;
+    width: 27%;
+    margin-left: 2%;
+    background-color: beige;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.repair:hover
+{
+    background-color: orange;
+}
+.maintain:hover
+{
+    background-color: orange;
+}
+#about
+{
+    height: 600px;
+    width: 100%;
+    margin-top: 25%;
+    padding-left: 30px;
+   
+}
+.about-us h2
+{
+    font-size: 40px;
+}
+.about-us p{
+    width: 50%;
+}
+.about-us button
+{
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    font-size: 17px;
+    color: white;
+}
+.img1 img
+{
+    height: 300px;
+    width: 40%;
+    margin-left: 50%;
+    position: absolute;
+    top: 150%;
+    
+} 
+.home-service
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(126, 212, 212);
+    display: flex;
+}
+.home-service .content2
+{
+    margin-left: 5%;
+}
+.content2 h2
+{
+    color: blue;
+    margin-top: 20%;
+    font-size: 30px;
+}
+.content2 p
+{
+    width: 70%;
+}
+.content2  button
+{
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: orange;
+}
+#services
+{
+    height: 500px;
+    width: 100%;
+   
+
+}
+#services h1
+{
+    margin-left: 40%;
+}
+.div1
+{
+    height: 250px;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+}
+.services
+{
+    display: flex;
+}
+.div1 span
+{
+    font-size: 30px;
+}
+.div1 img
+{
+    padding-top: 5%;
+    height: 80px;
+}
+.div2
+{
+    height: 250px;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+}
+.div2 span
+{
+    font-size: 30px;
+}
+.div2 img
+{
+    padding-top: 5%;
+    height: 80px;
+}
+.div3
+{
+    height: 250px;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+}
+.div3 span
+{
+    font-size: 30px;
+}
+.div3 img
+{
+    padding-top: 5%;
+    height: 80px;
+}
+#services button
+{
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.clients
+{
+    height: 400px;
+    width: 100%;
+
+
+}
+.clients h1
+{
+    text-align: center;
+}
+.client
+{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.client .c1
+{
+    
+    height: 300px;
+    width: 50%;
+    margin-left: 5%;
+    box-shadow: 0px 5px 5px gray;
+    border: 1px solid gray;
+}
+.client .c2
+{
+    border: 1px solid gray;
+    height: 300px;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0px 5px 5px gray;
+}
+.client .c1 img
+{
+    
+    border-radius: 70px;
+    padding: 10px 10px;
+   
+}
+.client .c2 img
+{
+    
+    border-radius: 70px;
+    padding: 10px 10px;
+}
+#contact
+{
+    height: 600px;
+    width: 100%;
+    
+  
+}
+.contact-us
+{
+    margin-top: 10%;
+    
+}
+#contact .contact-us .t1
+{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.contact-us .t2
+{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.contact-us .t3
+{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.contact-us .t4
+{
+    height: 100px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.contact-us button
+{
+    margin-top: 2%;
+    height:50PX;
+    width: 10%;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.map
+{
+    margin-left: 50%;
+    position: absolute;
+    top: 460%;
+}
+.footer
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(11, 11, 64);
+    margin-top: 5%;
+}
+.footer h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer .f 
+{
+    display: flex;
+}
+.footer .f .f1 
+{
+    height: 70px;
+    width: 5%;
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.footer .f .f1 i
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footer .f .f2 
+{
+    height: 70px;
+    width: 5%;
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.footer .f .f2 i
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footer .f .f3 
+{
+    height: 70px;
+    width: 5%;
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.footer .f .f3 i
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footer .h4
+{
+    display: flex; 
+}
+.footer .h4 h4 
+{
+    color: white;
+    margin-left: 5%;
+
+}
+.footer .h4 .lorem
+{
+    margin-left: 30%;
+}
+.footer hr
+{
+    margin-top: 5% ;
+}
+.footer span
+{
+    color: white;
+    margin-left:40% ;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* media query  */
+@media only screen and (max-width: 480px){
+    *
+   {
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+   }
+   .start
+   {
+       height: 10vh;
+       width: 100%;
+       background-color: black;
+       color: white;
+       display: flex;
+       padding: 10px 10px;
+   }
+   .two
+   {
+      /* margin-left: 10%;  */
+
+      display: inline;
+      font-size: 12px;
+      
+   }
+   .header
+   {
+       height: 87vh;
+       width: 100%;
+       background-color: rgb(126, 212, 212);
+   }
+   .header
+   {
+       display: flex;
+       position: relative;
+   
+   }
+   .nav
+   {
+       margin-left: 25%;
+       display: none;
+       width: 100vw;
+   
+   }
+   .nav .head
+   {
+       width: 20vw;
+   }
+   .nav ul
+   {
+       display: flex;
+       padding-left: 10px;
+   }
+   .nav ul li 
+   {
+       padding-top: 10px;
+       padding-left: 20px;
+       
+       list-style-type: none;
+   
+   }
+   .nav ul .home a
+   {
+       color: blue;
+   }
+   .nav ul li a{
+       text-decoration: none;
+       color: white;
+       font-size: 15px;
+       
+      
+   }
+   
+   .content
+   {
+       width: 50%;
+       position: absolute;
+       top: 20%;
+       margin-left: 7%;
+   }
+   .content h1
+   {
+       color: blue;
+   
+   }
+   .content p
+   {
+       width: 50vw;
+       font-size: 10px;
+   }
+   .content button
+   {
+       height: 5vh;
+       width: 20vw;
+       border-radius: 5px;
+       border:none;
+       color: white;
+       background-color: orange;
+   }
+   .img
+   {
+       position: absolute;
+       top: 20%;
+       margin-left: 50%;
+   }
+   .img img
+   {
+       height: 75vh;
+   }
+   .block
+   {
+       height: 150vh;
+       width: 100vw;
+       display: flex;
+       position: absolute;
+       top: 93%;
+   }
+   .repair
+   {
+       height: 150px;
+       width: 27%;
+       margin-left: 5%;
+       background-color: beige;
+       text-align: center;
+       padding-top: 5%;
+       font-size: 20px;
+   }
+   .improve
+   {
+       height: 150px;
+       width: 27%;
+       margin-left: 2%;
+       background-color: orange;
+       text-align: center;
+       padding-top: 5%;
+       font-size: 20px;
+   }
+   .maintain
+   {
+       height: 150px;
+       width: 27%;
+       margin-left: 2%;
+       background-color: beige;
+       text-align: center;
+       padding-top: 5%;
+       font-size: 20px;
+   }
+   
+   .repair:hover
+   {
+       background-color: orange;
+   }
+   .maintain:hover
+   {
+       background-color: orange;
+   }
+   #about
+   {
+       height: 80vh;
+       width: 100vw;
+       margin-top: 40%;
+       padding-left: 30px;
+      
+   }
+   .about-us h2
+   {
+       font-size: 40px;
+   }
+   .about-us p{
+       width: 50vw;
+   }
+   .about-us button
+   {
+       height: 40px;
+       width: 10%;
+       border-radius: 5px;
+       border: none;
+       background-color: blue;
+       font-size: 12px;
+       color: white;
+   }
+   .img1 img
+   {
+       height: 40vh;
+       width: 40vw;
+       margin-left: 50%;
+       position: absolute;
+       top: 150%;
+       
+   } 
+   .home-service
+   {
+       height: 600px;
+       width: 100%;
+       background-color: rgb(126, 212, 212);
+       display: block;
+   }
+   .home-service .img2 img
+   {
+       height: 60vh;
+       width: 60vw;
+   }
+   .home-service .content2
+   {
+       margin-left: 5%;
+   }
+   .content2 h2
+   {
+       color: blue;
+       margin-top: 20%;
+       font-size: 20px;
+   }
+   .content2 p
+   {
+       width: 70vw;
+   }
+   .content2  button
+   {
+       height: 6vh;
+       width: 20vw;
+       border-radius: 5px;
+       border:none;
+       color: white;
+       background-color: orange;
+   }
+   #services
+   {
+       height: 500px;
+       width: 100%;
+      
+   
+   }
+   #services h1
+   {
+       margin-left: 40%;
+   }
+   .div1
+   {
+       height: 250px;
+       width: 30%;
+       margin-left: 5%;
+       border: 1px solid black;
+       text-align: center;
+       float: left;
+   }
+   .services
+   {
+       display: flex;
+   }
+   .div1 span
+   {
+       font-size: 30px;
+   }
+   .div1 img
+   {
+       padding-top: 5%;
+       height: 80px;
+   }
+   .div2
+   {
+       height: 250px;
+       width: 30%;
+       margin-left: 5%;
+       border: 1px solid black;
+       text-align: center;
+   }
+   .div2 span
+   {
+       font-size: 30px;
+   }
+   .div2 img
+   {
+       padding-top: 5%;
+       height: 80px;
+   }
+   .div3
+   {
+       height: 250px;
+       width: 30%;
+       margin-left: 5%;
+       border: 1px solid black;
+       text-align: center;
+   }
+   .div3 span
+   {
+       font-size: 30px;
+   }
+   .div3 img
+   {
+       padding-top: 5%;
+       height: 80px;
+   }
+   #services button
+   {
+       height: 40px;
+       width: 20%;
+       border-radius: 5px;
+       border:none;
+       font-size: 15px;
+       color: white;
+       background-color: blue;
+       margin-top: 5%;
+       margin-left: 40%;
+   }
+   .clients
+   {
+       height: 400px;
+       width: 100%;
+   
+   
+   }
+   .clients h1
+   {
+       text-align: center;
+   }
+   .client
+   {
+       height: 250px;
+       width: 100%;
+       display: flex;
+   }
+   .client .c1
+   {
+       
+       height: 300px;
+       width: 50%;
+       margin-left: 5%;
+       box-shadow: 0px 5px 5px gray;
+       border: 1px solid gray;
+   }
+   .client .c2
+   {
+       border: 1px solid gray;
+       height: 300px;
+       width: 50%;
+       margin-left: 5%;
+       margin-right: 5%;
+       box-shadow: 0px 5px 5px gray;
+   }
+   .client .c1 img
+   {
+       
+       border-radius: 70px;
+       padding: 10px 10px;
+      
+   }
+   .client .c2 img
+   {
+       
+       border-radius: 70px;
+       padding: 10px 10px;
+   }
+   #contact
+   {
+       height: 600px;
+       width: 100%;
+     
+   }
+   .contact-us
+   {
+       margin-top: 10%;
+       
+   }
+   #contact .contact-us .t1
+   {
+       height: 50px;
+       width: 40%;
+       /* border: 1px solid gray; */
+       padding-left: 10px;
+       box-shadow: 5px 5px 5px gray;
+   
+   }
+   .contact-us .t2
+   {
+       height: 50px;
+       width: 40%;
+       /* border: 1px solid gray; */
+       padding-left: 10px;
+       box-shadow: 5px 5px 5px gray;
+   }
+   .contact-us .t3
+   {
+       height: 50px;
+       width: 40%;
+       /* border: 1px solid gray; */
+       padding-left: 10px;
+       box-shadow: 5px 5px 5px gray;
+   }
+   .contact-us .t4
+   {
+       height: 100px;
+       width: 40%;
+       /* border: 1px solid gray; */
+       padding-left: 10px;
+       box-shadow: 5px 5px 5px gray;
+   }
+   .contact-us button
+   {
+       margin-top: 2%;
+       height:50PX;
+       width: 10%;
+       color: white;
+       background-color: blue;
+       border: none;
+   }
+   .map 
+   {
+      
+       margin-left: 50%;
+       position: absolute;
+       top: 560%;
+   }
+   .map iframe
+   {
+       height: 80vh;
+       width: 40vw;
+   }
+   .footer
+   {
+       height: 500px;
+       width: 100%;
+       background-color: rgb(11, 11, 64);
+       margin-top: 5%;
+   }
+   .footer h1
+   {
+       color: white;
+       text-align: center;
+       padding-top: 20px;
+   }
+   .footer .f 
+   {
+       display: flex;
+   }
+   .footer .f .f1 
+   {
+       height: 12vh;
+       width: 10vw;
+       /* border: 1px solid black; */
+       background-color: blue;
+       border-radius: 100px;
+       margin-left: 35%;
+       margin-top: 5%;
+   }
+   .footer .f .f1 i
+   {
+       font-size: 20px;
+       color: white;
+       margin-left: 40%;
+       margin-top: 30%;
+   }
+   .footer .f .f2 
+   {
+       height: 12vh;
+       width: 10vw;
+       /* border: 1px solid black; */
+       background-color: blue;
+       border-radius: 100px;
+       margin-left: 10%;
+       margin-top: 5%;
+   }
+   .footer .f .f2 i
+   {
+       font-size: 20px;
+       color: white;
+       margin-left: 40%;
+       margin-top: 30%;
+   }
+   .footer .f .f3 
+   {
+       height: 12vh;
+       width: 10vw;
+       /* border: 1px solid black; */
+       background-color: blue;
+       border-radius: 100px;
+       margin-left: 10%;
+       margin-top: 5%;
+   }
+   .footer .f .f3 i
+   {
+       font-size: 20px;
+       color: white;
+       margin-left: 40%;
+       margin-top: 30%;
+   }
+   .footer .h4
+   {
+       display: flex; 
+   }
+   .footer .h4 h4 
+   {
+       color: white;
+       margin-left: 5%;
+   
+   }
+   .footer .h4 .lorem
+   {
+       margin-left: 30%;
+   }
+   .footer hr
+   {
+       margin-top: 30% ;
+   }
+   .footer span
+   {
+       color: white;
+       margin-left:30% ;
+       
+   }
+   
+   }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* media query  */
+@media only screen and (max-width: 600px){
+ *
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.start
+{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 10px;
+}
+.two
+{
+   margin-left: 40%; 
+   
+}
+.header
+{
+    height: 87vh;
+    width: 100%;
+    background-color: rgb(126, 212, 212);
+}
+.header
+{
+    display: flex;
+    position: relative;
+
+}
+.nav
+{
+    margin-left: 25%;
+    width: 100vw;
+
+}
+.nav .head
+{
+    width: 20vw;
+}
+.nav ul
+{
+    display: flex;
+    padding-left: 10px;
+}
+.nav ul li 
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+
+}
+.nav ul .home a
+{
+    color: blue;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+   
+}
+
+.content
+{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    margin-left: 7%;
+}
+.content h1
+{
+    color: blue;
+
+}
+.content p
+{
+    width: 40vw;
+}
+.content button
+{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: orange;
+}
+.img
+{
+    position: absolute;
+    top: 20%;
+    margin-left: 50%;
+}
+.img img
+{
+    height: 75vh;
+}
+.block
+{
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    top: 93%;
+}
+.repair
+{
+    height: 200px;
+    width: 27%;
+    margin-left: 5%;
+    background-color: beige;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.improve
+{
+    height: 200px;
+    width: 27%;
+    margin-left: 2%;
+    background-color: orange;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.maintain
+{
+    height: 200px;
+    width: 27%;
+    margin-left: 2%;
+    background-color: beige;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.repair:hover
+{
+    background-color: orange;
+}
+.maintain:hover
+{
+    background-color: orange;
+}
+#about
+{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 35%;
+    padding-left: 30px;
+   
+}
+.about-us h2
+{
+    font-size: 40px;
+}
+.about-us p{
+    width: 50vw;
+}
+.about-us button
+{
+    height: 40px;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    font-size: 12px;
+    color: white;
+}
+.img1 img
+{
+    height: 40vh;
+    width: 40vw;
+    margin-left: 50%;
+    position: absolute;
+    top: 150%;
+    
+} 
+.home-service
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(126, 212, 212);
+    display: block;
+}
+.home-service .img2 img
+{
+    height: 60vh;
+    width: 60vw;
+}
+.home-service .content2
+{
+    margin-left: 5%;
+}
+.content2 h2
+{
+    color: blue;
+    margin-top: 20%;
+    font-size: 20px;
+}
+.content2 p
+{
+    width: 70vw;
+}
+.content2  button
+{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: orange;
+}
+#services
+{
+    height: 500px;
+    width: 100%;
+   
+
+}
+#services h1
+{
+    margin-left: 40%;
+}
+.div1
+{
+    height: 250px;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+}
+.services
+{
+    display: flex;
+}
+.div1 span
+{
+    font-size: 30px;
+}
+.div1 img
+{
+    padding-top: 5%;
+    height: 80px;
+}
+.div2
+{
+    height: 250px;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+}
+.div2 span
+{
+    font-size: 30px;
+}
+.div2 img
+{
+    padding-top: 5%;
+    height: 80px;
+}
+.div3
+{
+    height: 250px;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+}
+.div3 span
+{
+    font-size: 30px;
+}
+.div3 img
+{
+    padding-top: 5%;
+    height: 80px;
+}
+#services button
+{
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.clients
+{
+    height: 400px;
+    width: 100%;
+
+
+}
+.clients h1
+{
+    text-align: center;
+}
+.client
+{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.client .c1
+{
+    
+    height: 300px;
+    width: 50%;
+    margin-left: 5%;
+    box-shadow: 0px 5px 5px gray;
+    border: 1px solid gray;
+}
+.client .c2
+{
+    border: 1px solid gray;
+    height: 300px;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0px 5px 5px gray;
+}
+.client .c1 img
+{
+    
+    border-radius: 70px;
+    padding: 10px 10px;
+   
+}
+.client .c2 img
+{
+    
+    border-radius: 70px;
+    padding: 10px 10px;
+}
+#contact
+{
+    height: 600px;
+    width: 100%;
+  
+}
+.contact-us
+{
+    margin-top: 10%;
+    
+}
+#contact .contact-us .t1
+{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.contact-us .t2
+{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.contact-us .t3
+{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.contact-us .t4
+{
+    height: 100px;
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.contact-us button
+{
+    margin-top: 2%;
+    height:50PX;
+    width: 10%;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.map 
+{
+   
+    margin-left: 50%;
+    position: absolute;
+    top: 560%;
+}
+.map iframe
+{
+    height: 80vh;
+    width: 40vw;
+}
+.footer
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(11, 11, 64);
+    margin-top: 5%;
+}
+.footer h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer .f 
+{
+    display: flex;
+}
+.footer .f .f1 
+{
+    height: 12vh;
+    width: 10vw;
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.footer .f .f1 i
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footer .f .f2 
+{
+    height: 12vh;
+    width: 10vw;
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.footer .f .f2 i
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footer .f .f3 
+{
+    height: 12vh;
+    width: 10vw;
+    /* border: 1px solid black; */
+    background-color: blue;
+    border-radius: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.footer .f .f3 i
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footer .h4
+{
+    display: flex; 
+}
+.footer .h4 h4 
+{
+    color: white;
+    margin-left: 5%;
+
+}
+.footer .h4 .lorem
+{
+    margin-left: 30%;
+}
+.footer hr
+{
+    margin-top: 30% ;
+}
+.footer span
+{
+    color: white;
+    margin-left:30% ;
+    
+}
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media only screen and (max-width: 768px) {
+    *
+    {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .start
+    {
+        height: 10vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 10px 10px;
+    }
+    .two
+    {
+       margin-left: 50%; 
+       
+    }
+    .header
+    {
+        height: 87vh;
+        width: 100%;
+        background-color: rgb(126, 212, 212);
+    }
+    .header
+    {
+        display: flex;
+        position: relative;
+    
+    }
+    .nav
+    {
+        margin-left: 40%;
+        width: 100vw;
+    
+    }
+    .nav .head
+    {
+        width: 20vw;
+    }
+    .nav ul
+    {
+        display: flex;
+        padding-left: 10px;
+    }
+    .nav ul li 
+    {
+        padding-top: 10px;
+        padding-left: 20px;
+        list-style-type: none;
+    
+    }
+    .nav ul .home a
+    {
+        color: blue;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        
+       
+    }
+    
+    .content
+    {
+        width: 50%;
+        position: absolute;
+        top: 30%;
+        margin-left: 7%;
+    }
+    .content h1
+    {
+        color: blue;
+    
+    }
+    .content p
+    {
+        width: 40vw;
+    }
+    .content button
+    {
+        height: 5vh;
+        width: 20vw;
+        border-radius: 5px;
+        border:none;
+        color: white;
+        background-color: orange;
+    }
+    .img
+    {
+        position: absolute;
+        top: 20%;
+        margin-left: 50%;
+    }
+    .img img
+    {
+        height: 75vh;
+    }
+    .block
+    {
+        height: 150vh;
+        width: 100vw;
+        display: flex;
+        position: absolute;
+        top: 93%;
+    }
+    .repair
+    {
+        height: 200px;
+        width: 27%;
+        margin-left: 5%;
+        background-color: beige;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    .improve
+    {
+        height: 200px;
+        width: 27%;
+        margin-left: 2%;
+        background-color: orange;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    .maintain
+    {
+        height: 200px;
+        width: 27%;
+        margin-left: 2%;
+        background-color: beige;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    
+    .repair:hover
+    {
+        background-color: orange;
+    }
+    .maintain:hover
+    {
+        background-color: orange;
+    }
+    #about
+    {
+        height: 80vh;
+        width: 100vw;
+        margin-top: 35%;
+        padding-left: 30px;
+       
+    }
+    .about-us h2
+    {
+        font-size: 40px;
+    }
+    .about-us p{
+        width: 50vw;
+    }
+    .about-us button
+    {
+        height: 40px;
+        width: 15vw;
+        border-radius: 5px;
+        border: none;
+        background-color: blue;
+        font-size: 12px;
+        color: white;
+    }
+    .img1 img
+    {
+        height: 40vh;
+        width: 40vw;
+        margin-left: 50%;
+        position: absolute;
+        top: 150%;
+        
+    } 
+    .home-service
+    {
+        height: 600px;
+        width: 100%;
+        background-color: rgb(126, 212, 212);
+        display: block;
+    }
+    .home-service .img2 img
+    {
+        height: 60vh;
+        width: 60vw;
+    }
+    .home-service .content2
+    {
+        margin-left: 5%;
+    }
+    .content2 h2
+    {
+        color: blue;
+        margin-top: 20%;
+        font-size: 20px;
+    }
+    .content2 p
+    {
+        width: 70vw;
+    }
+    .content2  button
+    {
+        height: 6vh;
+        width: 20vw;
+        border-radius: 5px;
+        border:none;
+        color: white;
+        background-color: orange;
+    }
+    #services
+    {
+        height: 500px;
+        width: 100%;
+       
+    
+    }
+    #services h1
+    {
+        margin-left: 40%;
+    }
+    .div1
+    {
+        height: 250px;
+        width: 30%;
+        margin-left: 2%;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+    }
+    .services
+    {
+        display: flex;
+    }
+    .div1 span
+    {
+        font-size: 30px;
+    }
+    .div1 img
+    {
+        padding-top: 5%;
+        height: 80px;
+    }
+    .div2
+    {
+        height: 250px;
+        width: 30%;
+        margin-left: 2%;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .div2 span
+    {
+        font-size: 30px;
+    }
+    .div2 img
+    {
+        padding-top: 5%;
+        height: 80px;
+    }
+    .div3
+    {
+        height: 250px;
+        width: 30%;
+        margin-left: 2%;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .div3 span
+    {
+        font-size: 30px;
+    }
+    .div3 img
+    {
+        padding-top: 5%;
+        height: 80px;
+    }
+    #services button
+    {
+        height: 40px;
+        width: 20%;
+        border-radius: 5px;
+        border:none;
+        font-size: 15px;
+        color: white;
+        background-color: blue;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+    .clients
+    {
+        height: 400px;
+        width: 100%;
+    
+    
+    }
+    .clients h1
+    {
+        text-align: center;
+    }
+    .client
+    {
+        height: 250px;
+        width: 100%;
+        display: flex;
+    }
+    .client .c1
+    {
+        
+        height: 300px;
+        width: 50%;
+        margin-left: 5%;
+        box-shadow: 0px 5px 5px gray;
+        border: 1px solid gray;
+    }
+    .client .c2
+    {
+        border: 1px solid gray;
+        height: 300px;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: 0px 5px 5px gray;
+    }
+    .client .c1 img
+    {
+        
+        border-radius: 70px;
+        padding: 10px 10px;
+       
+    }
+    .client .c2 img
+    {
+        
+        border-radius: 70px;
+        padding: 10px 10px;
+    }
+    #contact
+    {
+        height: 600px;
+        width: 100%;
+      
+    }
+    .contact-us
+    {
+        margin-top: 10%;
+        
+    }
+    #contact .contact-us .t1
+    {
+        height: 50px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    
+    }
+    .contact-us .t2
+    {
+        height: 50px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .contact-us .t3
+    {
+        height: 50px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .contact-us .t4
+    {
+        height: 100px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .contact-us button
+    {
+        margin-top: 2%;
+        height:50PX;
+        width: 10%;
+        color: white;
+        background-color: blue;
+        border: none;
+    }
+    .map 
+    {
+       
+        margin-left: 50%;
+        position: absolute;
+        top: 560%;
+    }
+    .map iframe
+    {
+        height: 80vh;
+        width: 40vw;
+    }
+    .footer
+    {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(11, 11, 64);
+        margin-top: 5%;
+    }
+    .footer h1
+    {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .footer .f 
+    {
+        display: flex;
+    }
+    .footer .f .f1 
+    {
+        height: 12vh;
+        width: 10vw;
+        /* border: 1px solid black; */
+        background-color: blue;
+        border-radius: 100px;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .footer .f .f1 i
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    .footer .f .f2 
+    {
+        height: 12vh;
+        width: 10vw;
+        /* border: 1px solid black; */
+        background-color: blue;
+        border-radius: 100px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .footer .f .f2 i
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    .footer .f .f3 
+    {
+        height: 12vh;
+        width: 10vw;
+        /* border: 1px solid black; */
+        background-color: blue;
+        border-radius: 100px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .footer .f .f3 i
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    .footer .h4
+    {
+        display: flex; 
+    }
+    .footer .h4 h4 
+    {
+        color: white;
+        margin-left: 2%;
+    
+    }
+    .footer .h4 .lorem
+    {
+        margin-left: 15%;
+        font-size: 13px;
+    }
+    .footer hr
+    {
+        margin-top: 20% ;
+    }
+    .footer span
+    {
+        color: white;
+        margin-left:30% ;
+        
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media only screen and (max-width: 992px) {
+    *
+    {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .start
+    {
+        height: 10vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 10px 10px;
+    }
+    .two
+    {
+       margin-left: 60%; 
+       
+    }
+    .header
+    {
+        height: 87vh;
+        width: 100%;
+        background-color: rgb(126, 212, 212);
+    }
+    .header
+    {
+        display: flex;
+        position: relative;
+    
+    }
+    .nav
+    {
+        margin-left: 50%;
+        width: 100vw;
+    
+    }
+    .nav .head
+    {
+        width: 20vw;
+    }
+    .nav ul
+    {
+        display: flex;
+        padding-left: 10px;
+    }
+    .nav ul li 
+    {
+        padding-top: 10px;
+        padding-left: 20px;
+        list-style-type: none;
+    
+    }
+    .nav ul .home a
+    {
+        color: blue;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        
+       
+    }
+    
+    .content
+    {
+        width: 50%;
+        position: absolute;
+        top: 30%;
+        margin-left: 7%;
+    }
+    .content h1
+    {
+        color: blue;
+    
+    }
+    .content p
+    {
+        width: 40vw;
+    }
+    .content button
+    {
+        height: 7vh;
+        width: 15vw;
+        border-radius: 5px;
+        border:none;
+        color: white;
+        background-color: orange;
+    }
+    .img
+    {
+        position: absolute;
+        top: 20%;
+        margin-left: 50%;
+    }
+    .img img
+    {
+        height: 75vh;
+    }
+    .block
+    {
+        height: 150vh;
+        width: 100vw;
+        display: flex;
+        position: absolute;
+        top: 93%;
+    }
+    .repair
+    {
+        height: 200px;
+        width: 27%;
+        margin-left: 5%;
+        background-color: beige;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    .improve
+    {
+        height: 200px;
+        width: 27%;
+        margin-left: 2%;
+        background-color: orange;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    .maintain
+    {
+        height: 200px;
+        width: 27%;
+        margin-left: 2%;
+        background-color: beige;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    
+    .repair:hover
+    {
+        background-color: orange;
+    }
+    .maintain:hover
+    {
+        background-color: orange;
+    }
+    #about
+    {
+        height: 80vh;
+        width: 100vw;
+        margin-top: 35%;
+        padding-left: 30px;
+       
+    }
+    .about-us h2
+    {
+        font-size: 40px;
+    }
+    .about-us p{
+        width: 50vw;
+    }
+    .about-us button
+    {
+        height: 40px;
+        width: 15vw;
+        border-radius: 5px;
+        border: none;
+        background-color: blue;
+        font-size: 12px;
+        color: white;
+    }
+    .img1 img
+    {
+        height: 50vh;
+        width: 40vw;
+        margin-left: 50%;
+        position: absolute;
+        top: 170%;
+        
+    } 
+    .home-service
+    {
+        height: 600px;
+        width: 100%;
+        background-color: rgb(126, 212, 212);
+        display: flex;
+    }
+    .home-service .img2 img
+    {
+        height: 90vh;
+        width: 40vw;
+    }
+    .home-service .content2
+    {
+        margin-left: 5%;
+    }
+    .content2 h2
+    {
+        color: blue;
+        margin-top: 20%;
+        font-size: 30px;
+    }
+    .content2 p
+    {
+        width: 50vw;
+    }
+    .content2  button
+    {
+        height: 7vh;
+        width: 15vw;
+        border-radius: 5px;
+        border:none;
+        color: white;
+        background-color: orange;
+    }
+    #services
+    {
+        height: 500px;
+        width: 100%;
+       
+    
+    }
+    #services h1
+    {
+        margin-left: 40%;
+    }
+    .div1
+    {
+        height: 250px;
+        width: 30%;
+        margin-left: 2%;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+    }
+    .services
+    {
+        display: flex;
+    }
+    .div1 span
+    {
+        font-size: 30px;
+    }
+    .div1 img
+    {
+        padding-top: 5%;
+        height: 80px;
+    }
+    .div2
+    {
+        height: 250px;
+        width: 30%;
+        margin-left: 2%;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .div2 span
+    {
+        font-size: 30px;
+    }
+    .div2 img
+    {
+        padding-top: 5%;
+        height: 80px;
+    }
+    .div3
+    {
+        height: 250px;
+        width: 30%;
+        margin-left: 2%;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .div3 span
+    {
+        font-size: 30px;
+    }
+    .div3 img
+    {
+        padding-top: 5%;
+        height: 80px;
+    }
+    #services button
+    {
+        height: 40px;
+        width: 20%;
+        border-radius: 5px;
+        border:none;
+        font-size: 15px;
+        color: white;
+        background-color: blue;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+    .clients
+    {
+        height: 400px;
+        width: 100%;
+    
+    
+    }
+    .clients h1
+    {
+        text-align: center;
+    }
+    .client
+    {
+        height: 250px;
+        width: 100%;
+        display: flex;
+    }
+    .client .c1
+    {
+        
+        height: 300px;
+        width: 50%;
+        margin-left: 5%;
+        box-shadow: 0px 5px 5px gray;
+        border: 1px solid gray;
+    }
+    .client .c2
+    {
+        border: 1px solid gray;
+        height: 300px;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: 0px 5px 5px gray;
+    }
+    .client .c1 img
+    {
+        
+        border-radius: 70px;
+        padding: 10px 10px;
+       
+    }
+    .client .c2 img
+    {
+        
+        border-radius: 70px;
+        padding: 10px 10px;
+    }
+    #contact
+    {
+        height: 600px;
+        width: 100%;
+      
+    }
+    .contact-us
+    {
+        margin-top: 10%;
+        
+    }
+    #contact .contact-us .t1
+    {
+        height: 50px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    
+    }
+    .contact-us .t2
+    {
+        height: 50px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .contact-us .t3
+    {
+        height: 50px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .contact-us .t4
+    {
+        height: 100px;
+        width: 40%;
+        /* border: 1px solid gray; */
+        padding-left: 10px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .contact-us button
+    {
+        margin-top: 2%;
+        height:50PX;
+        width: 10%;
+        color: white;
+        background-color: blue;
+        border: none;
+    }
+    .map 
+    {
+       
+        margin-left: 50%;
+        position: absolute;
+        top: 600%;
+    }
+    .map iframe
+    {
+        height: 80vh;
+        width: 40vw;
+    }
+    .footer
+    {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(11, 11, 64);
+        margin-top: 5%;
+    }
+    .footer h1
+    {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .footer .f 
+    {
+        display: flex;
+    }
+    .footer .f .f1 
+    {
+        height: 15vh;
+        width: 8vw;
+        /* border: 1px solid black; */
+        background-color: blue;
+        border-radius: 100px;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .footer .f .f1 i
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    .footer .f .f2 
+    {
+        height: 15vh;
+        width: 8vw;
+        /* border: 1px solid black; */
+        background-color: blue;
+        border-radius: 100px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .footer .f .f2 i
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    .footer .f .f3 
+    {
+        height: 15vh;
+        width: 8vw;
+        /* border: 1px solid black; */
+        background-color: blue;
+        border-radius: 100px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .footer .f .f3 i
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    .footer .h4
+    {
+        display: flex; 
+    }
+    .footer .h4 h4 
+    {
+        color: white;
+        margin-left: 2%;
+    
+    }
+    .footer .h4 .lorem
+    {
+        margin-left: 22%;
+        font-size: 13px;
+    }
+    .footer hr
+    {
+        margin-top: 10% ;
+    }
+    .footer span
+    {
+        color: white;
+        margin-left:30% ;
+        
+    }
+}
+
